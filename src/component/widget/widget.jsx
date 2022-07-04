@@ -19,13 +19,16 @@ const widget = ({type}) => {
     case "user":
       data = {
         title: "USERS",
-        anount: "man",
+        anount: 2453,
         icon: (
-          <PersonOutlinedIcon
+          <GroupIcon
             className="icon"
             style={{
-              color: "crimson",
-              backgroundColor: "rgba(255, 0, 0, 0.2)",
+           
+              backgroundColor: "#DF18FF",
+               width: "40px",
+              height: "40px",
+              borderRadius: "50%"
             }}
           />
         ),
@@ -34,13 +37,15 @@ const widget = ({type}) => {
     case "active users":
       data = {
         title: "ACTIVE USERS",
-        amount: "man",
+        amount: "2453",
         icon: (
           <ShoppingCartOutlinedIcon
             className="icon"
             style={{
-              backgroundColor: "rgba(218, 165, 32, 0.2)",
-              color: "goldenrod",
+              backgroundColor: "#5718FF",
+               width: "40px",
+              height: "40px",
+              borderRadius: "50%"
             }}
           />
         ),
@@ -53,7 +58,8 @@ const widget = ({type}) => {
         icon: (
           <MonetizationOnOutlinedIcon
             className="icon"
-            style={{ backgroundColor: "rgba(0, 128, 0, 0.2)", color: "green" }}
+            style={{ backgroundColor: "#F55F44", width: "40px",
+              height: "40px", borderRadius: "50%"}}
           />
         ),
       };
@@ -66,8 +72,11 @@ const widget = ({type}) => {
           <AccountBalanceWalletOutlinedIcon
             className="icon"
             style={{
-              backgroundColor: "rgba(128, 0, 128, 0.2)",
+              backgroundColor: "#FF3366",
               color: "purple",
+              width: "40px",
+              height: "40px",
+              borderRadius: "50%"
             }}
           />
         ),
@@ -80,7 +89,7 @@ const widget = ({type}) => {
     <div className='widget'>
       <div>{data.icon}</div>
       <span className="title">{data.title}</span>
-      <div>{data.amount}</div>
+      <div  className="amount">{data.amount}</div>
     </div>
   )
 }
