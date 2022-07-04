@@ -1,0 +1,107 @@
+
+
+.sidebar {
+    background: #FFFFFF;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.04);
+    width: 283px;
+    min-height: 100vh;
+    flex: 1.5;
+   
+
+    .center {
+            margin-top: 100px;
+            padding-left: 10px;
+            overflow: auto;
+
+            .dashboard {
+                padding-top: 52px;
+                display: flex;
+                align-items: center;
+                cursor: pointer;
+                margin-left: 20px;
+                
+
+                span {
+                     font-family: 'Work Sans';
+                      font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 19px;
+                        color: #213F7D;
+                        margin-left: 10px;
+                }
+
+                .icon {
+                        font-size: 18px;
+                        color: #213F7D;
+                    }
+            }
+
+            .top {
+                padding-top: 41px;
+                display: flex;
+                align-items: center;
+                cursor: pointer;
+                margin-left: 20px;
+
+                .logo {
+                     font-family: 'Work Sans';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 19px;
+                        color: #213F7D;
+                        margin-left: 10px;
+                }
+
+                .Caseicon {
+                    font-size: 18px;
+                    color: #213F7D;
+                }
+                .KeyIcon {
+                    margin-left: 10px;
+                }
+            }
+
+            ul {
+                    list-style: none;
+                    margin: 0;
+                    padding: 0;
+
+                    .title {
+                            font-size: 12px;
+                            font-weight: 500;
+                            color: #545F7D;
+                            padding-top: 41px;
+                            margin-bottom: 5px;
+                            margin-left: 20px;
+                        }
+                    
+                        li {
+                            display: flex;
+                            align-items: center;
+                            padding: 20px;
+                            cursor: pointer;
+                    
+                            &:hover {
+                                background: rgba(57, 205, 204, 0.06);
+                                border-left: 3px solid #39CDCC;
+                                color: #213F7D;
+                                height: 40px;
+                            }
+                    
+                            .icon {
+                                font-size: 18px;
+                                color: #213F7D;
+                            }
+                    
+                            span {
+                                font-size: 16px;
+                                font-weight: 400;
+                                color: #213F7D;
+                                margin-left: 10px;
+                            }
+                        }
+                }
+        }
+}

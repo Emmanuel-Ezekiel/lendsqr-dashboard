@@ -1,0 +1,45 @@
+.home {
+    background: #E5E5E5;
+    display: flex;
+    width: 100vw;
+
+    .homeContainer {
+        flex: 6;
+
+        .user {
+            display: flex;
+            padding: 60px;
+            // font-family: 'Work Sans';
+            font-weight: 500;
+            font-size: 24px;
+            color: #213F7D;
+        }
+
+    .widgets{
+      display: flex;
+      padding: 0 60px 40px ;
+      gap: 20px;
+    }
+
+        .listContainer {
+            width: 1037px;
+            height: 740px;
+            background: #FFFFFF;
+            border: 1px solid rgba(33, 63, 125, 0.06);
+            box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+            border-radius: 4px;
+            padding:0 60px 40px;
+            margin-left: 60px;
+
+            .header {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                // outline: 1px solid;
+                width: 1000px;
+                padding: 30px;
+                margin-left: -60px;
+            }
+    }
+}
+}

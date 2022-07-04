@@ -1,0 +1,350 @@
+.home {
+    background: #E5E5E5;
+    display: flex;
+    width: 100vw;
+
+    .homeContainer {
+        flex: 6;
+
+        .top {
+           display: flex;
+           flex-direction: column; 
+           margin: 40px 40px;
+
+           .btn {
+            display: flex;
+
+            .back {
+                margin-left: 20px !important;
+                font-weight: 400;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #545F7D;
+            }
+
+            .btnIcon{
+                height: 9.384965896606445px;
+                width: 26.718673706054688px;
+            }
+           }
+        }
+        
+
+        .users {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: row;
+            margin-left:-50px ;
+            .Button {
+                display: flex;
+                margin-right: 40px;
+
+                .redButton {
+                    width: 170px;
+                    height: 40px;
+                    color: #E4033B;
+                    border: 1px solid #E4033B;
+                    border-radius: 8px;
+                    padding: 10px 18px;
+                    margin-right: 12px;
+                }
+                .blueButton {
+                    width: 170px;
+                    height: 40px;
+                    color: #39CDCC;
+                    border: 1px solid #39CDCC;
+                    border-radius: 8px;
+                    padding: 10px 18px;
+                }
+            }
+            .user {
+                    font-weight: 500;
+                    font-size: 24px;
+                    color: #213F7D;
+                    
+                }
+        }
+
+        .userDetails {
+            width: 1037px;
+            height: 210px;
+            background: #FFFFFF;
+            border: 1px solid rgba(33, 63, 125, 0.06);
+            box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+            border-radius: 4px;
+            margin-left: 40px;
+
+            .rows {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 970px;
+                margin: 55px 30px;
+                font-family: 'SF Compact Text';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 19px;
+                color: rgba(0, 0, 0, 0.8);
+
+               
+
+                .general {
+                    &:nth-child(1) {
+                            color: #39CDCC;
+                            border-bottom: 1px solid #39CDCC;
+                        }
+                   
+                }
+               
+            }
+
+            .detail {
+                width: 600px;
+                height: 100px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin: 30px;
+
+                .image {
+                    width: 100px;
+                    height: 100px;
+                   
+
+                    img {
+                     width: 100%;
+                     height: 100%;
+                    border-radius: 50%;
+                        
+                    }
+                }
+                .name {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 22px;
+                    line-height: 26px;
+                    color: #213F7D;
+
+                    .name2 {
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 16px;
+                    color: #545F7D;
+                    }
+                }
+                .bank {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 22px;
+                    line-height: 26px;
+                    color: #213F7D;
+
+                    .bank2 {
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 16px;
+                        color: #545F7D;
+                    }
+
+                }
+                .rate {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    border-left: 1px solid #545F7D;
+                    border-right: 1px solid #545F7D;
+                    padding: 10px;
+
+                    .star {
+                        display: flex;
+
+                        .star1 {
+                            color: #E9B200;
+                            height: 13.425273895263672px;
+                            width: 14.080350875854492px;
+                        }
+                        .star2 {
+                            color: #E9B200;
+                            height: 13.425273895263672px;
+                            width: 14.080350875854492px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .information {
+            width: 1037px;
+            height: 910px;
+            background: #FFFFFF;
+            border: 1px solid rgba(33, 63, 125, 0.06);
+            box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+            border-radius: 4px;
+            margin: 30px 40px;
+            
+            .PersonalInfo {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                width: 900px;
+                margin: 30px 30px;
+
+                .personal {
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #213F7D;
+                }
+
+                .PersonalDetails {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    font-style: normal;
+                        font-weight: 400;
+                        font-size: 12px;
+                        line-height: 14px;
+                        /* identical to box height */
+                    
+                        text-transform: uppercase;
+                    
+                        color: #545F7D;
+
+                    .full {
+                        display: flex;
+                        flex-direction: column;
+
+                        .full1 {
+                            font-style: normal;
+                                font-weight: 500;
+                                font-size: 16px;
+                                line-height: 19px;
+                                /* identical to box height */
+                            text-transform: lowercase;
+                            
+                                color: #545F7D;
+                        }
+                    }
+                }
+                .PersonalDetails2 {
+                    display: flex;
+                    align-items: center;
+                    font-style: normal;
+                        font-weight: 400;
+                        font-size: 12px;
+                        line-height: 14px;
+                        /* identical to box height */
+                    
+                        text-transform: uppercase;
+                    
+                        color: #545F7D;
+
+                    .full {
+                        display: flex;
+                        flex-direction: column;
+
+                        &:nth-child(2) {
+                            margin-left: 50px;
+                        }
+                        &:nth-child(3) {
+                            margin-left: 90px;
+                        }
+
+                                                .full1 {
+                                                    font-style: normal;
+                                                    font-weight: 500;
+                                                    font-size: 16px;
+                                                    line-height: 19px;
+                                                    /* identical to box height */
+                        text-transform: lowercase;
+                        
+                                                    color: #545F7D;
+                                                }
+                    }
+                }
+                .PersonalDetails3 {
+                    display: flex;
+                    align-items: center;
+                    font-style: normal;
+                        font-weight: 400;
+                        font-size: 12px;
+                        line-height: 14px;
+                        /* identical to box height */
+                    
+                        text-transform: uppercase;
+                    
+                        color: #545F7D;
+
+                    .full {
+                        display: flex;
+                        flex-direction: column;
+
+                        &:nth-child(2) {
+                            margin-left: 140px;
+                        }
+                        &:nth-child(3) {
+                            margin-left: 190px;
+                        }
+
+                                                .full1 {
+                                                    font-style: normal;
+                                                    font-weight: 500;
+                                                    font-size: 16px;
+                                                    line-height: 19px;
+                                                    /* identical to box height */
+                        text-transform: lowercase;
+                        
+                                                    color: #545F7D;
+                                                }
+                    }
+                }
+                .PersonalDetails4 {
+                    display: flex;
+                    align-items: center;
+                    font-style: normal;
+                        font-weight: 400;
+                        font-size: 12px;
+                        line-height: 14px;
+                        /* identical to box height */
+                    
+                        text-transform: uppercase;
+                    
+                        color: #545F7D;
+
+                    .full {
+                        display: flex;
+                        flex-direction: column;
+
+                        &:nth-child(2) {
+                            margin-left: 80px;
+                        }
+                        &:nth-child(3) {
+                            margin-left: 90px;
+                        }
+                         .full1 {
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 16px;
+                            line-height: 19px;
+                           color: #545F7D;
+                           text-transform: lowercase;
+                        }
+                    }
+                }
+            }
+        }
+
+        
+
+       
+    }
+}

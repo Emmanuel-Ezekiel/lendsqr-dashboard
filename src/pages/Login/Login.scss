@@ -1,0 +1,160 @@
+
+.login {
+    height: 100vh;
+    background-color: #ffffff;
+
+    .loginContainer {
+        display: flex;
+        justify-content: space-between;
+
+        .login-inner {
+            display: flex;
+            flex-direction: column;
+            @media only screen and (max-width: 768px) {
+                display: none;
+            }
+            
+            .loginImage {
+                img {
+                    width: 500px;
+                    height: 337.57px;
+                }
+                
+                margin: 130px 0 0 40px;
+                 @media only screen and (min-width: 992px) {
+                    margin: 130px 0 0 40px;
+                 }
+            }
+            
+            .Image {
+                display: flex;
+                margin: 60px 0 0 60px;
+                @media only screen and (min-width: 992px) {
+                    margin: 60px 0 0 60px;
+                }
+                .img1 {
+                    width: 24.75px;
+                    height: 25px;
+                }
+                .img2 {
+                    width: 138.44px;
+                    height: 36px;
+                    margin-left: 10px;
+                }
+                
+            }
+        }
+
+        //LoginForm css
+        .loginForm {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 704px;
+            height: 100vh; 
+            background: #FFFFFF;
+            box-shadow: 0px 15px 90px rgba(0, 0, 0, 0.03);
+            @media only screen and (max-width: 768px) {
+                width: 100vw;
+            }
+            .form-inner {
+              h2 {
+                    font-family: 'Avenir Next';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 40px;
+                    line-height: 55px;
+                    letter-spacing: -0.04em;
+                    color: #213F7D;
+               }
+               p {
+                font-family: 'Avenir Next';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 27px;
+                    color: #545F7D;
+               }
+               .form {
+                margin-top: 40px;
+                display: flex;
+                flex-direction: column;
+                p {
+                        font-family: 'Avenir Next';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 12px;
+                        line-height: 16px;
+                        text-align: left;
+                        letter-spacing: 0.1em;
+                        text-transform: uppercase;
+                        color: #39CDCC;
+                        margin-top: 20px;
+                    }
+                .centerTest {
+                    background: #39CDCC;
+                    border-radius: 8px;
+                    height: 48px;
+                    width: 447px;
+                    margin-top: 30px;
+                    @media only screen and (max-width: 768px) {
+                            width: 300px;
+                            height: 48px;
+                        }
+
+                    span {
+                        display: block;
+                        text-align: center;
+                        font-family: 'Avenir Next';
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 14px;
+                            line-height: 19px;
+                            letter-spacing: 0.1em;
+                            text-transform: uppercase;
+                            color: #FFFFFF;
+                            margin-top: 13px;
+                            cursor: pointer;
+                    }
+
+                    a {
+                        text-decoration: none;
+                    }
+                }
+                .form-group {
+                    margin-top: 20px;
+                    position: relative;
+                    h3 {
+                            font-family: 'Avenir Next';
+                            cursor: pointer;
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 12px;
+                            line-height: 16px;
+                            text-align: center;
+                            letter-spacing: 0.1em;
+                            text-transform: uppercase;
+                            color: #39CDCC;
+                            position: absolute;
+                            top: 38%;
+                            right: 3%;
+                    }
+                    input {
+                        @media only screen and (max-width: 768px) {
+                            width: 300px;
+                            height: 50px;
+                        }
+                        width: 447px;
+                        height: 50px;
+                        border: 2px solid rgba(84, 95, 125, 0.15);
+                        border-radius: 5px;
+                        background-color: #ffffff;
+                        padding: 15px;
+                    }
+                  
+                }
+               }
+            }
+        }
+    }
+}
